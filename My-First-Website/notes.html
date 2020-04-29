@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" type="text/css" href="website.css"/>
+            <div id="title"><h4 id="header1"><strong>Welcome to my first website!</strong></h4><div>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <nav>
+                <div id="link0" class="navbuttons"><a href="website.html"><i class="glyphicon glyphicon-home"></i> Home</a></div>
+                <div id="link1" class="navbuttons"><a href="notes.html"><i class="glyphicon glyphicon-pencil"></i> Notes</a></div>
+                <div id="link2" class="navbuttons"><a href="aboutme.html"><i class="glyphicon glyphicon-asterisk"></i> About me</a></div>
+            <div id="icon-menu">
+                    <i class="glyphicon glyphicon-th-list">
+                        NAVIGATION   
+                    </i>
+            </div>
+            </nav>
+        </head>
+    <body>
+        <title>Notes</title>
+        <div class= "menu">
+                <div id="min-icon"><i class="glyphicon glyphicon-minus"></i>
+                    <br></br>
+                    This is the navigation pane.
+                    Click on the button on the top left to minimize navigation pane.
+                </div>
+                <ul>
+                    <li><a href="website.html">Home</a></li>
+                    <li><a href="notes.html">Notes</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                </ul>
+        </div>
+        <div id="para1">
+            <form name="notesform" action="">
+                <label for="name">Name:</label>
+                <input type="text" id="input1" value=""/>
+                <div style="padding-top: 100px"></div>
+                <label for="message">Message:</label>
+                <br><textarea rows="10" cols="55" id="input2"  value=""></textarea></br>
+                <input type="submit" class="submit" onclick="return emptyCheck()"/>
+            </form>
+            <ul class="posts"></ul>
+        </div>
+    <script type="text/javascript" src="file:///C:/Development/jQuery/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="notes.js"></script>
+    <script src="navpanel.js" ></script>
+        <div id='nav-footer'>
+            <a href='#' class="arrow-prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+            <ul class="slider-dots">
+                <li class="dot active-dot">&bull;</li>
+                <!--Here we define class dot for jquery script to manipulate.-->
+                <li class="dot">&bull;</li>
+                <li class="dot">&bull;</li>
+            </ul>
+            <a href='#' class="arrow-next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+        </div>     
+    </body>   
+    </html>
