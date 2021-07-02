@@ -5,7 +5,7 @@
   "dependencies": {
     "connected-react-router": "^4.3.0",
     "history": "^4.7.2",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-hot-loader": "^4.3.3",
